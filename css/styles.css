@@ -121,8 +121,11 @@ a {
     border: 1px solid hsl(248, 32%, 49%);
 }
 
-.submit input[type="submit"] {
+.submit {
     margin: 20px;
+}
+
+.submit input[type="submit"] {
     width: 100%;
     font-size: 14px;
     font-family: "Poppins";

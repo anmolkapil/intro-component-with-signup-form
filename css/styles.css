@@ -184,6 +184,11 @@ a {
     .intro {
         width: 100%;
     }
+    
+    .banner {
+        padding: 1.25em 4em;
+    }
+
 
     .signup {
         width: 100%;

@@ -24,6 +24,8 @@ const showError = (id, input, message) => {
 
     // add the error class
     formField.classList.add('error');
+    formField.classList.add('err');
+
 
     document.querySelector("#" + id).classList.add('icon');
 
@@ -38,6 +40,7 @@ const showSuccess = (id, input) => {
 
     // remove the error class
     formField.classList.remove('error');
+    formField.classList.remove('err');
 
 
     document.querySelector("#" + id).classList.remove('icon');
